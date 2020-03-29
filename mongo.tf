@@ -11,6 +11,6 @@ resource "helm_release" "mongo" {
 
   set {
     name  = "auth.adminPassword"
-    value = "8492"
+    value = "1234"
   }
 }
